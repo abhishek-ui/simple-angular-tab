@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family:sans-serif;	
+	font-size:14px;
+	line-height:1.5;
+	color:#00112b;
+	background: none repeat scroll 0 0 rgba(55, 54, 55, 0.5);
+}
+a {
+    color:#00112b;
+    font-style: normal;
+    text-decoration: none;
+	font-style:italic;
+	transition: all 0.5s ease-in 0s;
+  -moz-transition: all 0.5s ease-in 0s;
+  -webkit-transition: all 0.5s ease-in 0s;
+  -ms-transition: all 0.5s ease-in 0s;
+}
+a:hover{
+	text-decoration:none;	
+}
+
+ul {
+    list-style: none outside none;
+	float: left;
+	width: 100%;
+}
+img{
+	max-width:100%;	
+}
+h1, h2 {
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+}
+
+header {
+  background: none repeat scroll 0 0 #252525;
+  padding: 10px 0;
+  width: 100%;
+}
+footer {
+  background: none repeat scroll 0 0 #252525;
+  border-radius: 0 0 20px 20px;
+  color: #c0c0c0;
+  font-style: italic;
+  padding: 20px 0;
+}
+
+section ul li {
+  padding: 20px !important;
+  margin:10px 0;
+}
+.logo {
+  color: #f0f0f0;
+  float: left;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 2;
+}
+nav{
+	float:right;
+	background:#f0f0f0;
+	margin:20px;
+	box-shadow: 2px 2px 2px 2px #c0c0c0 inset;
+	-moz-box-shadow: 2px 2px 2px 2px #c0c0c0 inset;
+	-webkit-box-shadow: 2px 2px 2px 2px #c0c0c0 inset;
+	-ms-box-shadow: 2px 2px 2px 2px #c0c0c0 inset;
+}
+nav ul{
+	margin:0;
+}
+nav li {
+  display: inline-block;
+}
+nav li a{
+	display: inline-block;
+    padding: 5px 10px;
+	font-weight:bold;
+	
+}
+nav li a:hover{
+	background:#00112b;
+	color:#fff;
+	transform: skewX(-15deg);
+	-moz-transform: skewX(-15deg);
+	-webkit-transform: skewX(-15deg);
+	-ms-transform: skewX(-15deg);
+}
+section .container {
+  background: none repeat scroll 0 0 #f8f8f8;
+  box-shadow: 0 5px 5px 5px;
+  padding: 20px;
+}
+.desc {
+  float: left;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+.desc > h1 {
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 1px 2px #cbcbcb;
+}
+.sep-line {
+  border-bottom: 1px dotted #c0c0c0;
+  border-top: 1px dotted #c0c0c0;
+  float: left;
+  margin: 10px 3%;
+  padding: 2px;
+  width: 94%;
+}
+.tab-container {
+  float: left;
+  padding: 10px 20px;
+  width: 100%;
+}
+.tab-body {
+  background: none repeat scroll 0 0 #ffffff;
+  font-style: italic;
+}
+.tab-body h2 {
+  font-weight: bold;
+  padding: 0 0 10px;
+}
+.tab-desc {
+  color: #444444;
+  font-weight: bold;
+}

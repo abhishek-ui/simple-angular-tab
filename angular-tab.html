@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="UTF-8">
+	<title>Angular Tab</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- CSS
+  ================================================== --> 
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body ng-app="">
+<header>
+<div class="container">
+	<h1 class="logo">ANGULARJS TAB</h1>	 
+</div>
+</header>
+<section>
+<div class="container">
+	<div class="row">
+	<div class="desc">
+		<h1>SIMPLE ANGULARJS TAB</h1>
+		<p>These is the simple example of tab where I am using ANgularJs, instead of normal js or jquery. It can be used in many way by changing the effect simply.</p>
+	</div>
+	<div class="sep-line"></div>
+	
+	
+	
+	<div class="tab-container" ng-init="tab=1">
+		<ul class="nav nav-tabs">
+        <li ng-click="tab=1" ng-class="{active:tab === 1}"><a href="#">Home</a></li>
+        <li ng-click="tab=2" ng-class="{active:tab === 2}"><a href="#">Profile</a></li>
+        <li ng-click="tab=3" ng-class="{active:tab === 3}"><a href="#">Messages</a></li>
+    </ul>
+	<ul class="tab-body">
+		<li ng-show="tab === 1">
+			<h2>HOME</h2>
+			<div class="tab-desc">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</div>
+		</li>
+		<li ng-show="tab===2">
+			<h2>PROFILE</h2>
+			<div class="tab-desc">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</div>
+		</li>
+		<li ng-show="tab===3">
+			<h2>MESSAGES</h2>
+			<div class="tab-desc">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</div>
+		</li>
+	</ul>
+	</div>
+</section>
+<footer class="text-center">
+	<span>Abhi-UI Simple AngularJs Tab-Chapter1 </span>
+</footer>
+	<!-- Javascript
+  ================================================== -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/angular.min.js"></script>
+</body>
+</html>
